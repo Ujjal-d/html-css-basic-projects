@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.pikachu .pokemon-img {
+  width: 70%;
+}
+.pikachu .pokemon-logo {
+  /* height: 10%;
+    width:15%; */
+  /* font-size: 10px; it doesn't work,use "transform" */
+  /* transform: scale(0.4); it's not working beacause it still reserves its full size , the empry space appears as blank margin/padding around it*/
+  width: 180px;
+  position: absolute;
+  left: 3rem;
+  top:2.4rem;
+}
+.pikachu p,
+i {
+  position: absolute;
+  
+}
+.pikachu i {
+  top: 7%;
+  right: 35%;
+  font-size: 2.4rem;
+}
+.pikachu .first-text {
+  top: 13rem;
+  left: 5%;
+  font-size: 0.79rem;
+  color: #000000;
+  letter-spacing: .4rem;
+  font-weight: 700;
+  
+}
+.pikachu .heading-text {
+  position: absolute;
+  top: 33%;
+  left: 4%;
+  color: #000000;
+  font-size: 6.3rem;
+}
+.pikachu .para-text {
+  top: 50%;
+  left: 4.5%;
+  font-size: .9rem;
+  color: black;
+  line-height: 1.5rem;
+  /* font-weight: 400; */
+}
+.pikachu .date-text {
+  top: 67%;
+  left: 4.5%;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #000000;
+  word-spacing: 0.9rem;
+}
+.pikachu .date-text img {
+    position: relative;
+    top: 1.3rem;
+}
